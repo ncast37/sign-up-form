@@ -1,19 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div id="background-left"></div>
-    <div id="logo-left">
-        <div id="logo"></div>
+    <div id="logo-left"></div>
+    <div id="text-container">
+        <p id="testimonial">This is not a real online service! Lorem ipsum dolor sit amet
+            consectetur, adipisicing elit. Necessitatibus commodi!
+        </p>
+        <p id="sign-up-prompt">Sign up <span>now</span> to get started and start your journey today!</p>
+
     </div>
-    <div id="right-main">
+    <div id="right-main"></div>
+    <div id="form-container">
+        <form action="#" method="post">
+            <div id="first-name-container" class="field-container">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name">
+            </div>
+            <div id="last-name-container" class="field-container">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name">
+            </div>
+            <div id="email" class="field-container">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+            <div id="phone" class="field-container">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone">
+            </div>
+            <div id="password" class="field-container">
+                <label for="password">Password</label>
+                <input type="password" id="password">
+            </div>
+            <div id="password-confirm" class="field-container">
+                <label for="password-confirm">Confirm Password</label>
+                <input type="password" id="password-confirm">
+            </div>
+        </form>
     </div>
-    <div id="form-container"></div>
-    
+    <div id="button-container">
+        <button id="submit-button">Submit</button>
+        <div id="login-message">
+            <p>Already have an account? <a
+                    href="https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-forms">Log
+                    in</a></p>
+        </div>
+    </div>
 </body>
+
 </html>
